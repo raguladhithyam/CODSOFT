@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #17a2b8 !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section h1, .section h2, .section h4 {
+  color: #17a2b8;
+}
+
+#home {
+  color: black;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#home h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2em;
+}
+
+.course-box {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.btn-danger {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #17a2b8 !important;
+}
+
+.text-light {
+  color: #ffffff !important;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .section h1, .section h2, .section h4 {
+    text-align: center;
+  }
+  
+  .col-md-6.offset-md-3.text-center {
+    text-align: center !important;
+  }
+}
